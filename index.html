@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 
-<body>
+<body class="bg-secondary p-2 text-dark bg-opacity-75">
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-secondary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">VG EVENTS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -33,8 +33,8 @@
                                 Eventos Previos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#">00</a></li>
-                                <li><a class="dropdown-item" href="#">10</a></li>
+                                <li><a class="dropdown-item" href="/eventosPrevios00.html">00</a></li>
+                                <li><a class="dropdown-item" href="/eventosPrevios10.html">10</a></li>
                                 <li><a class="dropdown-item" href="/eventosPrevios20.html">20</a></li>
 
                                 <li>
@@ -69,7 +69,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://www.lavanguardia.com/files/image_948_465/uploads/2018/06/09/5fa43488abeec.jpeg"
-                            class="d-block w-100" alt="E32021">
+                            class="d-block w-100 mx-auto" alt="E32021">
                     </div>
                     <div class="carousel-item">
                         <img src="https://okaycoolca.files.wordpress.com/2019/06/img-0764-e1560134603470.jpg"
@@ -104,23 +104,92 @@
                 </button>
             </div>
 
-
-
-
+            <!-- crear divisiones con class container para englobar las secciones personalizadas -->
             <div class="container">
-                <img src="https://th.bing.com/th/id/OIP.jDHDiCrl_CGDUL8QDatA_gHaLH?pid=ImgDet&rs=1"
-                    alt="portada la broma asesina">
+                <!-- divisiones en clase row (flecha) indica que formato tendra el contenido dentro -->
+                <div class="row">
+                    <!-- indico la cantidad de columnas que voy a utilizar para este sector. El total de las 12 columnas de BST. -->
+                    <div class="col-12">
+                        <h2 class="bienvenido">BIENVENIDOS A VG EVENTS</h2>
+                        <h3>El recopilador de eventos para videojuegos mas grande</h3>
+                    </div>
+                </div>
+            </div>
+            <hr class="separador">
 
-                <h2>LA BROMA ASESINA</h2>
-                <p>Una noche lluviosa Batman llega al Asilo Arkham para hablar con Joker. Pero cuando llega a su celda,
-                    se
-                    da
-                    cuenta de que el que está ahí es un impostor, y que el real ha escapado y anda suelto por Gotham.
-                    Adaptación
-                    animada del cómic homónimo, uno de los más laureados de la historia del medio.</p>
+            <div class="row">
+                <!-- 12 columnas / 2 = col-md-6 -->
+                <div class="col-12 col-md-6">
+                    <img class="imagen-presentacion img-fluid"
+                        src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-VG-Logo-Design-by-Greenlines-Studios-580x386.jpg"
+                        alt="">
+                </div>
+                <div class="col12 col-md-6 mt-2">
+                    <h4>¿Que es VG EVENTS?</h4>
+                    <p>VG EVENTS es una web dedicada a la recopilacion y busqueda de los eventos mas importantes de
+                        los videojuegos.</p>
+                    <h4>¿Que es el E3?</h1>
+                        <p>La Electronic Entertainment Expo (también llamada algunas veces como Electronic
+                            Entertainment Expo 3, Expo 3 o Expo ), más conocida por su abreviatura E3, es la
+                            convención de videojuegos más importante de la industria, en la que diversas compañías
+                            de videojuegos hablan de sus próximos lanzamientos, y algunas veces de su software y
+                            hardware.</p>
+
+                        <h4>¿Que es la SUMMER GAME FEST?</h4>
+                        <p>¡El Summer Game Fest es una celebración mundial y completamente digital de videojuegos!
+                            Este año, estamos emocionados de unirnos a la fiesta para darles un adelanto de lo que
+                            pueden esperar de TennoCon 2022, que tendrá lugar el 16 de julio.</p>
+                </div>
             </div>
 
+
+
+
+
+
     </main>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">CONTACTO</h5>
+      
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                aliquam voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">REDES SOCIALES</h5>
+      
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                aliquam voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">VG-EVENTS.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>

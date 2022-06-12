@@ -1,0 +1,18 @@
+.bienvenido{
+    display: flex;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.imagen-presentacion{
+    margin: auto;
+    padding: 10px;
+    display: block;
+
+}
+
+.separador{
+    margin: auto;
+    padding: 20px;
+}
+
